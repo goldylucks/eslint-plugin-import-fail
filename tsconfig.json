@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "strictPropertyInitialization": false,
+    "sourceMap": true,
+    "noEmit": true,
+    "experimentalDecorators": true,
+    "rootDirs": ["src", "local", "tests"],
+    "skipLibCheck": true,
+    "typeRoots": ["src/@types", "node_modules/@types"]
+  },
+  "exclude": ["node_modules"],
+  "include": [
+    "index.ts",
+    ".eslintrc.js"
+  ]
+}
